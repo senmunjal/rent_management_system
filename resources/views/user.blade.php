@@ -60,8 +60,8 @@
             <input type="sa" class="form-control" id="sa" placeholder="" name="sa">
         </div>
         <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            <label for="date">Date:</label>
+            <input type="date" class="form-control" id="date" placeholder="Enter Date" name="date">
         </div>
         <div class="form-group">
             <label for="pwd">Password:</label>

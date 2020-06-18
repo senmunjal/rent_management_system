@@ -12,7 +12,9 @@
         <div class="form-group">
             <label for="first_name">First_Name:</label>
             <input type="first_name" class="form-control" id="first_name" placeholder="First_Name" name="first_name">
+
         </div>
+
         <div class="form-group">
             <label for="middle_name">Middle_Name:</label>
             <input type="middle_name" class="form-control" id="middle_name" placeholder="Middle_Name" name="middle_name">
@@ -52,7 +54,7 @@
         </div>
         <div class="form-group">
             <label for="dob">DOB:</label>
-            <input type="dob" class="form-control" id="dob" placeholder="DOB" name="dob">
+            <input type="date" class="form-control" id="dob" placeholder="DOB" name="dob">
         </div>
         <div class="form-group">
             <label for="admin_id">Admin_Id:</label>
@@ -71,8 +73,8 @@
             <input type="total_shop" class="form-control" id="total_shop" placeholder="Total_Shop" name="total_shop">
         </div>
         <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            <label for="date">Date:</label>
+            <input type="date" class="form-control" id="date" placeholder="Enter Date" name="date">
         </div>
         <div class="form-group">
             <label for="pwd">Password:</label>

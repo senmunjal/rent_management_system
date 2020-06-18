@@ -18,8 +18,8 @@
             <input type="cr" class="form-control" id="cr" placeholder="Current Reading" name="cr">
         </div>
         <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            <label for="date">Date:</label>
+            <input type="date" class="form-control" id="date" placeholder="Enter Date" name="date">
         </div>
         <div class="form-group">
             <label for="pwd">Password:</label>

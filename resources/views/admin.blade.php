@@ -9,12 +9,13 @@
 <div class="container">
     <h2>Admin</h2>
     <form action="/action_page.php">
+        @csrf
         <div class="form-group">
-            <label for="first_name">First_Name:</label>
-            <input type="first_name" class="form-control" id="first_name" placeholder="First_Name" name="first_name">
+            <strong>Name:</strong>
+            <input type="text" name="name" class="form-control @error('name') alert alert-danger @enderror" placeholder="Name" value="{{old('name')}}">
+            <p class="@error('name')alert-danger @enderror">{{$errors->first('name')}}</p>
 
         </div>
-
         <div class="form-group">
             <label for="middle_name">Middle_Name:</label>
             <input type="middle_name" class="form-control" id="middle_name" placeholder="Middle_Name" name="middle_name">

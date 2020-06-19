@@ -26,3 +26,5 @@ Route::get('/user', function () {
 Route::get('/reading', function () {
     return view('reading');
 });
+
+Route::post('/submitSuperadmin', 'SuperAdminController@store');

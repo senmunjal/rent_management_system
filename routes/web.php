@@ -28,3 +28,6 @@ Route::get('/reading', function () {
 });
 
 Route::post('/submitSuperadmin', 'SuperAdminController@store');
+Route::post('/submitadmin', 'AdminController@store');
+Route::post('/submitreading', 'ReadingController@store');
+Route::post('/submituser', 'User1Controller@store');

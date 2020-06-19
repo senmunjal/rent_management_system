@@ -7,7 +7,8 @@
 
 <div class="container">
     <h2>User</h2>
-    <form action="/action_page.php">
+    <form method="post" action="/submituser">
+
         <div class="form-group">
             <label for="first_name">First_Name:</label>
             <input type="first_name" class="form-control" id="first_name" placeholder="First_Name" name="first_name">

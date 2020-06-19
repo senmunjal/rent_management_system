@@ -8,7 +8,8 @@
 
 <div class="container">
     <h2>Meter Reading</h2>
-    <form action="/action_page.php">
+    <form method="post" action="/submitreading">
+        @csrf
         <div class="form-group">
             <label for="pmr">Previous Month Reading:</label>
             <input type="pmr" class="form-control" id="pmr" placeholder="Previous Month Reading" name="pmr">

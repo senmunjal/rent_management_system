@@ -8,7 +8,7 @@
 
 <div class="container">
     <h2>Admin</h2>
-    <form action="/action_page.php">
+    <form method="post" action="/submitadmin">
         @csrf
         <div class="form-group">
             <strong>Name:</strong>

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\SuperAdmin;
+use App\Admin;
 use Illuminate\Http\Request;
 
-class SuperAdminController extends Controller
+class AdminController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -30,25 +30,22 @@ class SuperAdminController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Requcontrolleest  $request
+     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
         //
-
-        {
-            print_r('hello');
-        }
+        print_r("Hello");
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\SuperAdmin  $superAdmin
+     * @param  \App\Admin  $admin
      * @return \Illuminate\Http\Response
      */
-    public function show(SuperAdmin $superAdmin)
+    public function show(Admin $admin)
     {
         //
     }
@@ -56,10 +53,10 @@ class SuperAdminController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\SuperAdmin  $superAdmin
+     * @param  \App\Admin  $admin
      * @return \Illuminate\Http\Response
      */
-    public function edit(SuperAdmin $superAdmin)
+    public function edit(Admin $admin)
     {
         //
     }
@@ -68,10 +65,10 @@ class SuperAdminController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\SuperAdmin  $superAdmin
+     * @param  \App\Admin  $admin
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, SuperAdmin $superAdmin)
+    public function update(Request $request, Admin $admin)
     {
         //
     }
@@ -79,10 +76,10 @@ class SuperAdminController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\SuperAdmin  $superAdmin
+     * @param  \App\Admin  $admin
      * @return \Illuminate\Http\Response
      */
-    public function destroy(SuperAdmin $superAdmin)
+    public function destroy(Admin $admin)
     {
         //
     }

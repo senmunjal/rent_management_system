@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('user_password');
             $table->date('user_email_verified_at')->nullable();
             $table->date('user_phone_verified_at')->nullable();
-            $table->string('user_aadhaar')->unique();
+            $table->string('user_aadhaar_no')->unique();
             $table->string('user_location');
             $table->enum('user_status',['0','1']);
             $table->string('user_phone_no');
